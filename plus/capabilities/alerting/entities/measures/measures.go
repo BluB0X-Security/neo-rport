@@ -3,7 +3,7 @@ package measures
 import (
 	"time"
 
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 type Measure struct {
