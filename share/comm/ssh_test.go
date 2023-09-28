@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/comm"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 type retryTestInfo struct {

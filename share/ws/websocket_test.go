@@ -8,8 +8,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/ws"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/ws"
 )
 
 func TestAutoClose(t *testing.T) {

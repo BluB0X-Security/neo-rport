@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 func TestValidatePagination(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/logger"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

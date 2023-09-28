@@ -5,7 +5,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	chshare "github.com/realvnc-labs/rport/share"
+	chshare "github.com/IOTech17/neo-rport/share"
 )
 
 func RejectBannedIPs(bannedIPs *MaxBadAttemptsBanList) mux.MiddlewareFunc {

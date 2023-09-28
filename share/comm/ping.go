@@ -6,7 +6,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 func PingConnectionWithTimeout(ctx context.Context, conn ssh.Conn, timeout time.Duration, l *logger.Logger) (ok bool, response []byte, rtt time.Duration, err error) {
