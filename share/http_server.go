@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 const readHeaderTimeout = 5 * time.Second
