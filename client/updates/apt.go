@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 type AptPackageManager struct {

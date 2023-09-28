@@ -87,6 +87,6 @@ changelog:
 release:
   github:
     owner: IOTEch17
-    name: rport
+    name: neo-rport
   draft: true
   prerelease: true

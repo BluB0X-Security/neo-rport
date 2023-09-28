@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/models"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 var MultiJobSupportedFilters = map[string]bool{

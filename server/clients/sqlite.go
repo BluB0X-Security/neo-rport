@@ -11,12 +11,12 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	chshare "github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/server/clients/clienttunnel"
+	chshare "github.com/IOTech17/neo-rport/share/clientconfig"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 type ClientStore interface {

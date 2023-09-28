@@ -10,8 +10,8 @@ import (
 
 	"github.com/wneessen/go-mail"
 
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/server/chconfig"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 type Mailer interface {

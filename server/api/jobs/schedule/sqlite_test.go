@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	jobsmigration "github.com/realvnc-labs/rport/db/migration/jobs"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/api/jobs"
-	"github.com/realvnc-labs/rport/server/test/jb"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/ptr"
+	jobsmigration "github.com/IOTech17/neo-rport/db/migration/jobs"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/api/jobs"
+	"github.com/IOTech17/neo-rport/server/test/jb"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/ptr"
 
 	"github.com/jmoiron/sqlx"
 

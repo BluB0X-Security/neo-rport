@@ -18,9 +18,9 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/text/encoding"
 
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/client/system"
+	"github.com/IOTech17/neo-rport/share/comm"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 var (

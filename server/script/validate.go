@@ -3,7 +3,7 @@ package script
 import (
 	"net/http"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
 )
 
 func Validate(iv *InputScript) error {

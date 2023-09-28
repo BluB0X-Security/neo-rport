@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/server/clientsauth"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/chconfig"
+	"github.com/IOTech17/neo-rport/server/clients"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/server/clientsauth"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 var (

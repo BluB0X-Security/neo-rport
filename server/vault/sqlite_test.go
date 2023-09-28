@@ -6,15 +6,15 @@ import (
 	"testing"
 	"time"
 
-	chshare "github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/query"
+	chshare "github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/query"
 
 	"github.com/jmoiron/sqlx"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/IOTech17/neo-rport/share/test"
 )
 
 var testLog = chshare.NewLogger("vault", chshare.LogOutput{File: os.Stdout}, chshare.LogLevelDebug)

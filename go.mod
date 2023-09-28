@@ -1,4 +1,4 @@
-module github.com/realvnc-labs/rport
+module github.com/IOTech17/neo-rport
 
 go 1.19
 

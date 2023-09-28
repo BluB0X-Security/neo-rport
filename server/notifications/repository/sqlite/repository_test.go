@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/notifications"
-	repo "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/refs"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/notifications"
+	repo "github.com/IOTech17/neo-rport/server/notifications/repository/sqlite"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/refs"
 )
 
 var problemIdentifiable = refs.GenerateIdentifiable("Problem")

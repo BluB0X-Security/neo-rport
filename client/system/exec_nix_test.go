@@ -4,7 +4,7 @@
 package system
 
 import (
-	chshare "github.com/realvnc-labs/rport/share"
+	chshare "github.com/IOTech17/neo-rport/share"
 )
 
 func getCmdBuildTestcases() []cmdBuildTestCase {

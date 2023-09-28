@@ -3,9 +3,9 @@ package licensemock
 import (
 	"plugin"
 
-	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
-	"github.com/realvnc-labs/rport/plus/validator"
-	"github.com/realvnc-labs/rport/share/logger"
+	licensecap "github.com/IOTech17/neo-rport/plus/capabilities/license"
+	"github.com/IOTech17/neo-rport/plus/validator"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 const (

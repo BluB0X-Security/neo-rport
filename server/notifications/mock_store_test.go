@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/realvnc-labs/rport/server/notifications"
+	"github.com/IOTech17/neo-rport/server/notifications"
 )
 
 type MockStore struct {

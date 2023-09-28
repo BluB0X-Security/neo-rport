@@ -6,9 +6,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/routes"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 var (

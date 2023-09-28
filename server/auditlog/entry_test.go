@@ -9,10 +9,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/auditlog/config"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/auditlog/config"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 func TestEntry(t *testing.T) {

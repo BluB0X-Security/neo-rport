@@ -1,8 +1,8 @@
 package transformers
 
 import (
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
-	rportclients "github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/plus/capabilities/alerting/entities/clientupdates"
+	rportclients "github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 func TransformRportClientToClientUpdate(rc *rportclients.Client) (cl *clientupdates.Client, err error) {

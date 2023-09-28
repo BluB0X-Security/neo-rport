@@ -3,9 +3,9 @@ package chserver
 import (
 	"net/http"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/server/api"
+	rportplus "github.com/IOTech17/neo-rport/plus"
+	"github.com/IOTech17/neo-rport/plus/capabilities/status"
+	"github.com/IOTech17/neo-rport/server/api"
 )
 
 // handleOAuthAuthorizationCode takes a request containing the OAuth authorization code parameters

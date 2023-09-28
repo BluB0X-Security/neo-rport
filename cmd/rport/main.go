@@ -13,16 +13,16 @@ import (
 
 	"github.com/spf13/pflag"
 
-	"github.com/realvnc-labs/rport/cmd/rport/servicemanagement"
+	"github.com/IOTech17/neo-rport/cmd/rport/servicemanagement"
 
 	"github.com/kardianos/service"
 	"github.com/spf13/cobra"
 
-	"github.com/realvnc-labs/rport/cmd/rport/cli"
-	"github.com/realvnc-labs/rport/share/files"
+	"github.com/IOTech17/neo-rport/cmd/rport/cli"
+	"github.com/IOTech17/neo-rport/share/files"
 
-	chclient "github.com/realvnc-labs/rport/client"
-	chshare "github.com/realvnc-labs/rport/share"
+	chclient "github.com/IOTech17/neo-rport/client"
+	chshare "github.com/IOTech17/neo-rport/share"
 )
 
 var (

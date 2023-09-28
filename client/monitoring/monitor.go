@@ -8,14 +8,14 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/realvnc-labs/rport/client/monitoring/fs"
-	"github.com/realvnc-labs/rport/client/monitoring/networking"
-	"github.com/realvnc-labs/rport/client/monitoring/processes"
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/client/monitoring/fs"
+	"github.com/IOTech17/neo-rport/client/monitoring/networking"
+	"github.com/IOTech17/neo-rport/client/monitoring/processes"
+	"github.com/IOTech17/neo-rport/client/system"
+	"github.com/IOTech17/neo-rport/share/clientconfig"
+	"github.com/IOTech17/neo-rport/share/comm"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 type Monitor struct {

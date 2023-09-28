@@ -7,8 +7,8 @@ import (
 
 	"github.com/kardianos/service"
 
-	chclient "github.com/realvnc-labs/rport/client"
-	chshare "github.com/realvnc-labs/rport/share"
+	chclient "github.com/IOTech17/neo-rport/client"
+	chshare "github.com/IOTech17/neo-rport/share"
 )
 
 var svcConfig = &service.Config{

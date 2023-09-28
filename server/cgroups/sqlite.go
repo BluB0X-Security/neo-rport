@@ -6,7 +6,7 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 type ClientGroupProvider interface {

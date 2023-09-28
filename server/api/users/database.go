@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"strings"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/enums"
-	"github.com/realvnc-labs/rport/share/logger"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
+	"github.com/IOTech17/neo-rport/share/enums"
+	"github.com/IOTech17/neo-rport/share/logger"
 
 	"github.com/jmoiron/sqlx"
 )

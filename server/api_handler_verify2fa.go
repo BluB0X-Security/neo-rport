@@ -3,8 +3,8 @@ package chserver
 import (
 	"net/http"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/bearer"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
+	"github.com/IOTech17/neo-rport/server/bearer"
 )
 
 func (al *APIListener) handlePostVerify2FAToken() http.Handler {

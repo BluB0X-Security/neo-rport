@@ -7,11 +7,11 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/server/api"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
+	"github.com/IOTech17/neo-rport/server/api/jobs/schedule"
+	"github.com/IOTech17/neo-rport/server/auditlog"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 func (al *APIListener) handleListSchedules(w http.ResponseWriter, req *http.Request) {

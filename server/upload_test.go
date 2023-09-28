@@ -17,14 +17,14 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/api/users"
+	"github.com/IOTech17/neo-rport/server/chconfig"
+	"github.com/IOTech17/neo-rport/server/clients"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/share/files"
+	"github.com/IOTech17/neo-rport/share/models"
+	"github.com/IOTech17/neo-rport/share/test"
 )
 
 func MockUserService(user string, group string) *users.APIService {

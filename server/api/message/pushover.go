@@ -9,7 +9,7 @@ import (
 
 	"github.com/gregdel/pushover"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
 )
 
 // PushoverService is a service that uses Pushover API to send messages via Pushover.net.

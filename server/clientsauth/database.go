@@ -8,9 +8,9 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/mattn/go-sqlite3"
 
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/query"
 
-	"github.com/realvnc-labs/rport/share/enums"
+	"github.com/IOTech17/neo-rport/share/enums"
 )
 
 const mysqlDuplicateEntryErrorCode = 1062

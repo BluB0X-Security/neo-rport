@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/db/migration/clients"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/db/migration/clients"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 var DataSourceOptions = sqlite.DataSourceOptions{WALEnabled: false}

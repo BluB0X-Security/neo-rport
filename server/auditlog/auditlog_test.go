@@ -4,15 +4,15 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/auditlog/config"
+	"github.com/IOTech17/neo-rport/server/api/users"
+	"github.com/IOTech17/neo-rport/server/auditlog/config"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/db/migration/auditlog"
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/db/migration/auditlog"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 var DataSourceOptions = sqlite.DataSourceOptions{WALEnabled: false}

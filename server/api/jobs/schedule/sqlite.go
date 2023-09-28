@@ -7,8 +7,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/models"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 const schedulesQuery = `

@@ -7,16 +7,16 @@ import (
 	"plugin"
 	"sync"
 
-	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
-	"github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
-	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
-	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/plus/license"
-	"github.com/realvnc-labs/rport/plus/loader"
-	"github.com/realvnc-labs/rport/plus/validator"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
+	alertingcap "github.com/IOTech17/neo-rport/plus/capabilities/alerting"
+	"github.com/IOTech17/neo-rport/plus/capabilities/extendedpermission"
+	licensecap "github.com/IOTech17/neo-rport/plus/capabilities/license"
+	"github.com/IOTech17/neo-rport/plus/capabilities/oauth"
+	"github.com/IOTech17/neo-rport/plus/capabilities/status"
+	"github.com/IOTech17/neo-rport/plus/license"
+	"github.com/IOTech17/neo-rport/plus/loader"
+	"github.com/IOTech17/neo-rport/plus/validator"
+	"github.com/IOTech17/neo-rport/share/files"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 const (

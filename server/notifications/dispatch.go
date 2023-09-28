@@ -3,7 +3,7 @@ package notifications
 import (
 	"context"
 
-	"github.com/realvnc-labs/rport/share/refs"
+	"github.com/IOTech17/neo-rport/share/refs"
 )
 
 type ProcessingState string

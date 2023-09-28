@@ -11,8 +11,8 @@ import (
 	"github.com/go-ole/go-ole/oleutil"
 	"github.com/scjalliance/comshim"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 var packageManagers = []PackageManager{

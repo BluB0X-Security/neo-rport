@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
-	"github.com/realvnc-labs/rport/server/cgroups"
-	"github.com/realvnc-labs/rport/server/clients"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/api/jobs/schedule"
+	"github.com/IOTech17/neo-rport/server/cgroups"
+	"github.com/IOTech17/neo-rport/server/clients"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 func TestHandlePostScheduleMultiClientJobWithTags(t *testing.T) {

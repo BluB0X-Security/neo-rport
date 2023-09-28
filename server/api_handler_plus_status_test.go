@@ -10,16 +10,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
-	"github.com/realvnc-labs/rport/plus/capabilities/license/licensemock"
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/plus/capabilities/status/statusmock"
-	"github.com/realvnc-labs/rport/server/api/authorization"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/chconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/security"
+	rportplus "github.com/IOTech17/neo-rport/plus"
+	licensecap "github.com/IOTech17/neo-rport/plus/capabilities/license"
+	"github.com/IOTech17/neo-rport/plus/capabilities/license/licensemock"
+	"github.com/IOTech17/neo-rport/plus/capabilities/status"
+	"github.com/IOTech17/neo-rport/plus/capabilities/status/statusmock"
+	"github.com/IOTech17/neo-rport/server/api/authorization"
+	"github.com/IOTech17/neo-rport/server/api/users"
+	"github.com/IOTech17/neo-rport/server/chconfig"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/security"
 )
 
 const (

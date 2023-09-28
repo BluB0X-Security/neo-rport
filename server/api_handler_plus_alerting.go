@@ -8,16 +8,16 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
-	"github.com/realvnc-labs/rport/server/alerts"
+	"github.com/IOTech17/neo-rport/plus/capabilities/alerting/entities/validations"
+	"github.com/IOTech17/neo-rport/server/alerts"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/query"
+	rportplus "github.com/IOTech17/neo-rport/plus"
+	alertingcap "github.com/IOTech17/neo-rport/plus/capabilities/alerting"
+	"github.com/IOTech17/neo-rport/plus/capabilities/alerting/entities/rules"
+	"github.com/IOTech17/neo-rport/plus/capabilities/alerting/entities/templates"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/routes"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 func (al *APIListener) getAlertingService() (as alertingcap.Service, statusCode int, err error) {

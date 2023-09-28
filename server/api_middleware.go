@@ -9,15 +9,15 @@ import (
 
 	"github.com/gorilla/mux"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	"github.com/realvnc-labs/rport/server/api"
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/bearer"
-	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/enums"
-	"github.com/realvnc-labs/rport/share/logger"
+	rportplus "github.com/IOTech17/neo-rport/plus"
+	"github.com/IOTech17/neo-rport/server/api"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
+	"github.com/IOTech17/neo-rport/server/api/users"
+	"github.com/IOTech17/neo-rport/server/bearer"
+	"github.com/IOTech17/neo-rport/server/clients/clienttunnel"
+	"github.com/IOTech17/neo-rport/server/routes"
+	"github.com/IOTech17/neo-rport/share/enums"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 func (al *APIListener) wrapStaticPassModeMiddleware(next http.HandlerFunc) http.HandlerFunc {

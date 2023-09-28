@@ -3,9 +3,9 @@ package statusmock
 import (
 	"plugin"
 
-	"github.com/realvnc-labs/rport/plus/capabilities/status"
-	"github.com/realvnc-labs/rport/plus/validator"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/plus/capabilities/status"
+	"github.com/IOTech17/neo-rport/plus/validator"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 type MockCapabilityProvider struct {

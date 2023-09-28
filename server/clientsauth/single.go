@@ -3,8 +3,8 @@ package clientsauth
 import (
 	"errors"
 
-	"github.com/realvnc-labs/rport/share/enums"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/enums"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 type SingleProvider struct {

@@ -3,7 +3,7 @@ package rules
 import (
 	"time"
 
-	"github.com/realvnc-labs/rport/share/types"
+	"github.com/IOTech17/neo-rport/share/types"
 )
 
 type ProblemID string

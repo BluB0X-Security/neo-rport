@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/query"
 
 	"github.com/jmoiron/sqlx"
 

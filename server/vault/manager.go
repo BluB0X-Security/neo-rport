@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/query"
 
-	"github.com/realvnc-labs/rport/share/enc"
+	"github.com/IOTech17/neo-rport/share/enc"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
 )
 
 var supportedFields = map[string]bool{

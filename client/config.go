@@ -12,13 +12,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/files"
+	"github.com/IOTech17/neo-rport/share/files"
 
-	"github.com/realvnc-labs/rport/client/system"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/clientconfig"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/client/system"
+	chshare "github.com/IOTech17/neo-rport/share"
+	"github.com/IOTech17/neo-rport/share/clientconfig"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 const DefaultMonitoringInterval = 60 * time.Second

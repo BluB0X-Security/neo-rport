@@ -8,12 +8,12 @@ import (
 
 	"github.com/gorilla/mux"
 
-	rportplus "github.com/realvnc-labs/rport/plus"
-	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
-	"github.com/realvnc-labs/rport/server/api"
-	"github.com/realvnc-labs/rport/server/api/users"
-	"github.com/realvnc-labs/rport/server/auditlog"
-	"github.com/realvnc-labs/rport/server/routes"
+	rportplus "github.com/IOTech17/neo-rport/plus"
+	extperm "github.com/IOTech17/neo-rport/plus/capabilities/extendedpermission"
+	"github.com/IOTech17/neo-rport/server/api"
+	"github.com/IOTech17/neo-rport/server/api/users"
+	"github.com/IOTech17/neo-rport/server/auditlog"
+	"github.com/IOTech17/neo-rport/server/routes"
 )
 
 var (

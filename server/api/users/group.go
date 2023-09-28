@@ -1,7 +1,7 @@
 package users
 
 import (
-	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+	extperm "github.com/IOTech17/neo-rport/plus/capabilities/extendedpermission"
 )
 
 const (

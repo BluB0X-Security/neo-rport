@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 type Task interface {

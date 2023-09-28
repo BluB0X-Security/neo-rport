@@ -8,8 +8,8 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/db/migration/api_sessions"
-	"github.com/realvnc-labs/rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/db/migration/api_sessions"
+	"github.com/IOTech17/neo-rport/db/sqlite"
 )
 
 type SqliteProvider struct {

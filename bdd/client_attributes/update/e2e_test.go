@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/bdd/helpers"
+	"github.com/IOTech17/neo-rport/bdd/helpers"
 )
 
 type TagsAndLabels struct {

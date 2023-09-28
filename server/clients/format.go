@@ -3,7 +3,7 @@ package clients
 import (
 	"fmt"
 
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
 )
 
 func FormatConnectionState(client *clientdata.Client) string {

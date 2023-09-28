@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/realvnc-labs/rport/server/api/message"
+	"github.com/IOTech17/neo-rport/server/api/message"
 )
 
 func TestURLService(t *testing.T) {

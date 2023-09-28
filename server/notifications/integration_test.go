@@ -10,13 +10,13 @@ import (
 	smtpmock "github.com/mocktools/go-smtp-mock/v2"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
-	"github.com/realvnc-labs/rport/server/notifications"
-	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
-	"github.com/realvnc-labs/rport/server/notifications/channels/scriptRunner"
-	notificationsrepo "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/simpleops"
+	"github.com/IOTech17/neo-rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/server/notifications"
+	"github.com/IOTech17/neo-rport/server/notifications/channels/rmailer"
+	"github.com/IOTech17/neo-rport/server/notifications/channels/scriptRunner"
+	notificationsrepo "github.com/IOTech17/neo-rport/server/notifications/repository/sqlite"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/simpleops"
 )
 
 var testLog = logger.NewLogger("client", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)

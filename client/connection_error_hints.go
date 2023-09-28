@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 func ConnectionErrorHints(server string, logger *logger.Logger, err error) error {

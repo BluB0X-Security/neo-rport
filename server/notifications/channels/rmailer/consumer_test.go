@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
+	"github.com/IOTech17/neo-rport/server/notifications/channels/rmailer"
 )
 
 func TestNotEscapedMail(t *testing.T) {

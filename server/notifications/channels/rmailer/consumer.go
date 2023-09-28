@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/realvnc-labs/rport/server/notifications"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/server/notifications"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 type consumer struct {

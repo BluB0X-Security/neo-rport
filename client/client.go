@@ -15,9 +15,9 @@ import (
 	"sync"
 	"time"
 
-	ipAddresses "github.com/realvnc-labs/rport/client/ip_addresses"
+	ipAddresses "github.com/IOTech17/neo-rport/client/ip_addresses"
 
-	"github.com/realvnc-labs/rport/share/random"
+	"github.com/IOTech17/neo-rport/share/random"
 
 	"github.com/denisbrodbeck/machineid"
 	"github.com/pkg/errors"
@@ -28,14 +28,14 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/net/proxy"
 
-	"github.com/realvnc-labs/rport/client/monitoring"
-	"github.com/realvnc-labs/rport/client/system"
-	"github.com/realvnc-labs/rport/client/updates"
-	chshare "github.com/realvnc-labs/rport/share"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
+	"github.com/IOTech17/neo-rport/client/monitoring"
+	"github.com/IOTech17/neo-rport/client/system"
+	"github.com/IOTech17/neo-rport/client/updates"
+	chshare "github.com/IOTech17/neo-rport/share"
+	"github.com/IOTech17/neo-rport/share/comm"
+	"github.com/IOTech17/neo-rport/share/files"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
 )
 
 const DialTimeout = 5 * 60 * time.Second

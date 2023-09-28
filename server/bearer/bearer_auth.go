@@ -11,9 +11,9 @@ import (
 
 	"github.com/golang-jwt/jwt/v4"
 
-	"github.com/realvnc-labs/rport/server/api/session"
-	"github.com/realvnc-labs/rport/server/routes"
-	"github.com/realvnc-labs/rport/share/logger"
+	"github.com/IOTech17/neo-rport/server/api/session"
+	"github.com/IOTech17/neo-rport/server/routes"
+	"github.com/IOTech17/neo-rport/share/logger"
 )
 
 const (

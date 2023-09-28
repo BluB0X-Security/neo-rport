@@ -10,11 +10,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/realvnc-labs/rport/share/errors"
-	"github.com/realvnc-labs/rport/share/files"
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/test"
+	"github.com/IOTech17/neo-rport/share/errors"
+	"github.com/IOTech17/neo-rport/share/files"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/models"
+	"github.com/IOTech17/neo-rport/share/test"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

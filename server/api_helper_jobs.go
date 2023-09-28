@@ -7,13 +7,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/realvnc-labs/rport/server/api/jobs"
-	"github.com/realvnc-labs/rport/server/clients/clientdata"
-	"github.com/realvnc-labs/rport/share/comm"
-	"github.com/realvnc-labs/rport/share/models"
-	"github.com/realvnc-labs/rport/share/query"
-	"github.com/realvnc-labs/rport/share/random"
-	"github.com/realvnc-labs/rport/share/ws"
+	"github.com/IOTech17/neo-rport/server/api/jobs"
+	"github.com/IOTech17/neo-rport/server/clients/clientdata"
+	"github.com/IOTech17/neo-rport/share/comm"
+	"github.com/IOTech17/neo-rport/share/models"
+	"github.com/IOTech17/neo-rport/share/query"
+	"github.com/IOTech17/neo-rport/share/random"
+	"github.com/IOTech17/neo-rport/share/ws"
 )
 
 var ErrClientNotConnected = errors.New("client is not connected")

@@ -8,7 +8,7 @@ import (
 	"os/exec"
 	"strings"
 
-	chshare "github.com/realvnc-labs/rport/share"
+	chshare "github.com/IOTech17/neo-rport/share"
 )
 
 func (e *CmdExecutorImpl) New(ctx context.Context, execCtx *CmdExecutorContext) *exec.Cmd {

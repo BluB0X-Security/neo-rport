@@ -8,16 +8,16 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/realvnc-labs/rport/share/logger"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/share/logger"
+	"github.com/IOTech17/neo-rport/share/query"
 
-	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+	errors2 "github.com/IOTech17/neo-rport/server/api/errors"
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/realvnc-labs/rport/db/migration/vaults"
+	"github.com/IOTech17/neo-rport/db/migration/vaults"
 
-	"github.com/realvnc-labs/rport/db/sqlite"
+	"github.com/IOTech17/neo-rport/db/sqlite"
 )
 
 var ErrDatabaseNotInitialised = errors2.APIError{

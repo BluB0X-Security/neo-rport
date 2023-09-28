@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
-	"github.com/realvnc-labs/rport/server/api/errors"
-	"github.com/realvnc-labs/rport/share/query"
+	"github.com/IOTech17/neo-rport/plus/capabilities/alerting/entities/rules"
+	"github.com/IOTech17/neo-rport/server/api/errors"
+	"github.com/IOTech17/neo-rport/share/query"
 )
 
 var SupportedProblemsListFields = map[string][]string{
